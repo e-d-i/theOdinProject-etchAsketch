@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TOP: Etch-A-Sketch</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="src/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="src/favicons/favicon-16x16.png">
+		<link rel="manifest" href="src/favicons/site.webmanifest">
+		<link rel="mask-icon" href="src/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="src/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2d89ef">
+		<meta name="msapplication-config" content="src/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="src/css/etchAsketch.css">
+  </head>
+
+  <body>
+
+      <header>
+        <h1>Etch-A-Sketch</h1>
+        <p>Let the endless creativity begin!</p>
+      </header>
+      <main id="wrapper">
+        <div class="buttons">
+          <label for="gridSize">Select Grid Size:</label>
+          <div class="gridDimension"><output>50</output> x <output>50</output></div>
+          <input id="gridSize" type="range" name="gridSize" value="50" step="1" min="1" max="100">
+        </div>
+        <div class="container"></div>
+      </main>
+
+    <script src="etchAsketch.js"></script>
+
+  </body>
+
+</html>
