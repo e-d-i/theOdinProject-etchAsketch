@@ -5,3 +5,5 @@ My first JavaScript-Project dealing with a lot of setbacks and difficulties fina
 This time using HTML, CSS & JavaScript (especially DOM-Manipulation) in order to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 For live preview check out following link:
+
+https://e-d-i.github.io/theOdinProject-etchAsketch/
